@@ -16,7 +16,7 @@ Tool is devoted to user which have no access to shell commands like `sed` and `a
 * Download file: https://github.com/adshpagin/multifiles_replace/blob/master/multifiles_replace.py
 * Clone repo
 ## Execution
-The only tool script id `multifiles_replace.py`. It should be executed as a regular Pyhon script. 
+The only tool script is `multifiles_replace.py`. It should be executed as a regular Python script. 
 ### Parameters
 
     -s, --search    Search pattern. Regexp are currenlty unsupported.
