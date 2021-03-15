@@ -6,10 +6,12 @@ Basically, tool does the same as shell script like:
 
 Tool is devoted to user which have no access to shell commands like `sed` and `awk`. Also tool may have more verbosity then regular shell scripts.
 ## Features
-* Pattern matches/replacements count indication
-* Modified files count indication
-* Dry run mode for pattern search only without files modification
-* Verbose log with 
+* Matches a specified pattern to each line of the file and if matched replaces it with specified string
+* Work with a list of files, so several files can be processed by one execution
+* Counts a number of matches/replacements. In case of several files are processed the tool counts sum of replacements by all files
+* Counts a number of modifed files
+* Dry run mode for search only without files modification
+* Verbose log which contains lines before and after replacement for debug
 ## Installation
 * Download file: https://github.com/adshpagin/multifiles_replace/blob/master/multifiles_replace.py
 * Clone repo
